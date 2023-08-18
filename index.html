@@ -7,29 +7,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">      
-        <label for="first_name">First Name:</label>
-        <input type="text" id="first_name" name="first_name" placeholder="Thor" required>
-
-        <label for="last_name">Last Name:</label>
-        <input type="text" id="last_name" name="last_name" placeholder="Odinson" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="user_email" name="email" placeholder="you@example.com" required>
-
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" placeholder="111-222-3333" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-
-        <label for="user_password">Password:</label>
-        <input type="password" id="user_password" name="password" required>
-
-        <label for="confirm_password">Password:</label>
-        <input type="password" id="confirm_password" name="confirmpassword" required>
-
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
-
-    </form>
-    <script src="script.js"></script>
+    <div class="content">
+        <div class="leftsidecontent">
+            <div class="logo">
+                <img src="./Images/odin.png" alt="logo" class="odinLogo" height="100px" width="100px">
+                <div class="desc">The Odin Project</div>
+            </div>
+        </div>
+        <div class="rightContent">
+            <div>
+                <div class="topContent">
+                </div>
+                <div class="bottomContent">
+                </div>
+            </div>
+            <div class="formdiv">
+                <form action="" class="formsbody">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" placeholder="Thor" required>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" placeholder="Odinson" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="user_email" name="email" placeholder="you@example.com" required>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="111-222-3333" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <label for="user_password">Password:</label>
+                    <input type="password" id="user_password" name="password" required>
+                    <label for="confirm_password">Password:</label>
+                    <input type="password" id="confirm_password" name="confirmpassword" required>
+                    <div>
+                        <button class="createAccount" type="submit">Submit</button>
+                        <div class="account">
+                            <div class="signInText"></div>
+                            <button class="signIn" type="reset">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
 </body>
 </html>
