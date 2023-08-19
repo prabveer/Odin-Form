@@ -94,3 +94,7 @@ button.signIn:hover {
     background-color: lightcoral;
     transition: 0.3s;
 }
+.footer {
+    position: relative;
+    top: 80vh;
+}
